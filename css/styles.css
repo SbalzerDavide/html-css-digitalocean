@@ -208,6 +208,30 @@ section{
     color: #6f7b97;
 }
 
+.icon .col-icon1{
+    height: 70px;
+    background-image: url(../img/docker.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.icon .col-icon2{
+    height: 60px;
+    background-image: url(../img/gitlab.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.icon .col-icon1 a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
 
 
 
