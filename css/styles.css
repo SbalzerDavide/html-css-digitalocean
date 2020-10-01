@@ -1,0 +1,120 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 50px;
+}
+
+
+
+/* UTILITY */
+/* button */
+.btn{
+    margin: 8px 0;
+}
+
+
+.btn.btn-primary{
+    vertical-align: middle;
+    background-color: #fff;
+    color: #006aff;
+    border: 1px solid #006aff;
+    transition: color .4s,
+                backgrond-color .4s;
+}
+
+.btn.btn-primary:hover{
+    color: white;
+    background-color: #006aff ;
+}
+
+
+
+
+
+
+
+/* heander */
+/* header{
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+} */
+
+header .navbar-default{
+    background-color: #fff;
+    border: none;
+}
+
+.navbar-brand{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-nav > li > a:not(.btn){
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    line-height: 50px;
+}
+
+header .navbar-header .navbar-brand{
+    padding-top: 11px ;
+    padding-bottom: 11px;
+}
+
+header .navbar-header .navbar-brand img{
+    width: 150px;
+    vertical-align: middle;
+    display: inline;
+}
+
+.navbar-default .navbar-nav > li > a{
+    color: #031c4e;
+    transition: color .4s;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+    color: #006aff;
+}
+
+header .navbar-central{
+    padding-left: 8%;
+}
+
+/* MAIN */
+section{
+    padding: 50px 0;
+}
+/* jumbotron */
+.main-jumbotron{
+    background-image: url(../img/bg-banner-home.jpg);
+
+}
+
+
+
+
+
+
+
+
+/* media query */
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    /* Mostra hamburger */
+    .navbar-toggle {
+        display: block;
+        position: absolute;
+        right: 0;
+    }
+    /* Nascondi contenitore menu */
+    .navbar-collapse {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width:768px){
+    
+
+}
