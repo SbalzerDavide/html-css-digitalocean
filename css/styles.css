@@ -21,11 +21,64 @@ body{
                 backgrond-color .4s;
 }
 
-.btn.btn-primary:hover{
-    color: white;
-    background-color: #006aff ;
+.btn.btn-form-blue{
+    color: #fff;
+    background-color: #579aff;
+    display: inline-block;
+    width: 100%;
 }
 
+.btn.btn-form-white{
+    color: #797979;
+    background-color: white;
+    display: inline-block;
+    width: 100%;
+    box-shadow: 1px 1px 1px 0px rgb(212, 212, 212);
+}
+
+.btn.btn-primary:hover{
+    color: white;
+    background-color: #006aff;
+}
+
+/* typorgraphy */
+h1,
+h2,
+h3,
+h4{
+    margin: 0;
+    font-weight: 700;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+h3{
+    margin-top: 10px;
+}
+
+a{
+    color: #006aff;
+    text-decoration: none;
+}
+
+.text-darkblue{
+    color: #031c4e;
+}
+
+.text-blue{
+    color: #006aff;
+}
+
+.text-lightblue{
+    color: #bbcdff;
+}
+
+.icon-bar{
+}
 
 
 
@@ -41,9 +94,17 @@ header .navbar-default{
     border: none;
 }
 
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #579aff;
+}
+
 .navbar-brand{
     padding-top: 0;
     padding-bottom: 0;
+}
+
+header .navbar-header button{
+    border: transparent;
 }
 
 .navbar-nav > li > a:not(.btn){
@@ -84,7 +145,60 @@ section{
 /* jumbotron */
 .main-jumbotron{
     background-image: url(../img/bg-banner-home.jpg);
+}
 
+.main-jumbotron p{
+    font-size: 18px;
+    color: #bbcdff;
+}
+
+.main-jumbotron .left-jumbotron{
+    color: #fff;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.main-jumbotron .right-jumbotron{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px 10px;
+}
+
+.main-jumbotron .right-jumbotron input{
+    display: inline-block;
+    width: 100%;
+    line-height: 30px;
+    padding: 0 5px;
+    border: 1px solid rgba(206, 206, 206, .6);
+    border-radius: 5px;
+    margin: 5px 0;
+
+}
+
+.main-jumbotron .right-jumbotron input::placeholder{
+    color: #464646;
+    font-weight: 500;
+}
+
+.main-jumbotron .right-jumbotron button{
+    position: relative;
+}
+
+.main-jumbotron .right-jumbotron button img{
+    height: 18px;
+    position: absolute;
+    left: 10px;
+    top: 9px;
+}
+
+.main-jumbotron .right-jumbotron p{
+    font-size: 12px;
+    color: #031c4e;
+
+}
+
+.main-jumbotron .right-jumbotron p a{
+    text-decoration: underline;
 }
 
 
