@@ -33,13 +33,9 @@ body{
 
 
 /* heander */
-/* header{
-    position: fixed;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-} */
-
+header nav .container{
+    position: relative;
+}
 header .navbar-default{
     background-color: #fff;
     border: none;
