@@ -47,7 +47,13 @@ h3,
 h4{
     margin: 0;
     font-weight: 700;
+}
+
+h2,
+h3,
+h4{
     color: #031c4e;
+
 }
 
 h1{
@@ -89,6 +95,16 @@ li{
     padding: 0 10px;
 }
 
+/* part */
+.top-section{
+    text-align: center;
+}
+
+.top-section p{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
 
 
 
@@ -268,6 +284,13 @@ section .top-deploy p{
     padding: 0;
 }
 
+/* developers */
+.developers{
+    background-color: #f3f5f9;
+
+}
+
+
 
 
 
@@ -320,7 +343,7 @@ section .top-deploy p{
     }
     
     /* deploy */
-    section .top-deploy p{
+    .top-section p{
         font-size: 17px;
     }
     
