@@ -11,7 +11,6 @@ body{
     margin: 8px 0;
 }
 
-
 .btn.btn-primary{
     vertical-align: middle;
     background-color: #fff;
@@ -48,6 +47,7 @@ h3,
 h4{
     margin: 0;
     font-weight: 700;
+    color: #031c4e;
 }
 
 h1{
@@ -65,12 +65,20 @@ a{
     text-decoration: none;
 }
 
+li{
+    list-style: none;
+}
+
 .text-darkblue{
     color: #031c4e;
 }
 
 .text-blue{
     color: #006aff;
+}
+
+.text-gray{
+    color: #5c6a88;
 }
 
 .text-lightblue{
@@ -209,7 +217,6 @@ section{
 .icon h5{
     text-transform: uppercase;
     font-size: 14px;
-    color: #6f7b97;
 }
 
 .icon ul{
@@ -224,6 +231,41 @@ section{
 
 .icon ul li img{
     max-width: 100%;
+}
+
+/* deploy */
+section .top-deploy p{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.row-deploy li{
+    font-size: 18px;
+    line-height: 30px;
+    padding-left: 10px;
+    border-left: 2px solid #cecece;
+}
+
+.row-deploy .deploy-box{
+    height: 160px;
+}
+
+.row-deploy .deploy-box img{
+    margin-top: 10px;
+}
+
+.row-deploy .deploy-box h4{
+    margin: 15px 0;
+}
+
+.row-deploy .deploy-box p{
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.row-deploy ul{
+    padding: 0;
 }
 
 
@@ -255,22 +297,17 @@ section{
 }
 
 
-@media screen and (min-width:992px){
-    h1{
-        font-size: 50px;
-    }
-}
 
 @media screen and (min-width:768px){
-
-
-
+    
+    
+    
     /* jumbotron */
     .main-jumbotron .left-jumbotron{
         color: #fff;
         padding-right: 30px;
     }
-
+    
     /* icon */
     .icon ul li{
         display: inline-block;
@@ -282,7 +319,51 @@ section{
         max-width: 100%;
     }
     
+    /* deploy */
+    section .top-deploy p{
+        font-size: 17px;
+    }
+    
+    .row-deploy li{
+        font-size: 14px;
+        line-height: 30px;
+    }
+    
+    .row-deploy .deploy-box{
+        height: 220px;
+    }
+    
+    .row-deploy .deploy-box img{
+        margin-top: 0;
+    }
+
+    .row-deploy ul{
+        padding: 0 40px;
+    }
+
+    .row-deploy .deploy-box p{
+        font-size: 13px;
+        line-height: 17px;
+    }
     
     
+    
+    
+    
+    
+    
+@media screen and (min-width:992px){
+    h1{
+        font-size: 50px;
+    }
+
+
+
+    /* deploy */
+    .row-deploy .deploy-box{
+        height: 180px;
+    }
+
+}
 
 }
