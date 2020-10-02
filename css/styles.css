@@ -335,6 +335,21 @@ section .top-deploy p{
     color:  #006aff;
 }
 
+/* features */
+.features h2{
+    margin-bottom: 20px;
+}
+
+.features h4{
+    margin: 15px 0;
+}
+
+.features img{
+    margin-top: 30px;
+}
+
+
+
 
 
 /* media query */
@@ -412,6 +427,12 @@ section .top-deploy p{
     }
 
     .developers-bottom ul{
+        margin-top: 0px;
+    }
+    
+
+    /* features */
+    .features img{
         margin-top: 0px;
     }
     
