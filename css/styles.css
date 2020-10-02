@@ -287,20 +287,53 @@ section .top-deploy p{
 /* developers */
 .developers{
     background-color: #f3f5f9;
-
 }
 
+.developers .arrow{
+    display: block;
+    width: 65%;
+    margin: 0 auto;
+    position: relative;
+}
 
+.developers img{
+    width: 100%;
+}
 
+.developers .arrow .left-arrow{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: -50px;
+    transform:translateY(-50%);    
+    font-size: 40px;
+    color: #5c6a88;
+}
 
+.developers .arrow .right-arrow{
+    display: none;
+    position: absolute;
+    top: 50%;
+    right: -50px;
+    transform:translateY(-50%);    
+    font-size: 40px;
+    color: #031c4e;
+}
 
+.developers-bottom p{
+    font-size: 14px;
+    margin-top: 20px;
+}
 
+.developers-bottom ul{
+    margin-top: 30px;
+}
 
-
-
-
-
-
+.developers-bottom li{
+    display: inline-block;
+    font-size: 12px;
+    color:  #006aff;
+}
 
 
 
@@ -368,6 +401,21 @@ section .top-deploy p{
         font-size: 13px;
         line-height: 17px;
     }
+
+    /* developers */
+    .developers .arrow .left-arrow{
+        display: block;
+    }
+    
+    .developers .arrow .right-arrow{
+        display: block;        
+    }
+
+    .developers-bottom ul{
+        margin-top: 0px;
+    }
+    
+    
     
     
     
@@ -389,4 +437,3 @@ section .top-deploy p{
 
 }
 
-}
