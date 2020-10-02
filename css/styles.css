@@ -95,6 +95,11 @@ li{
     color: #bbcdff;
 }
 
+/* layout */
+.no-padding-left{
+    padding-left: 0;
+}
+
 /* part */
 .top-section{
     text-align: center;
@@ -353,7 +358,49 @@ section .top-deploy p{
 
 /* service */
 .service{
-    background-image: linear-gradient(#0f53c9, #2d46ab);}
+    background-image: linear-gradient(#0f53c9, #2d46ab);
+}
+
+.service h2{
+    margin-bottom: 20px;
+}
+
+.service .first-row{
+    padding: 0 10px;
+}
+
+
+.service .final-row{
+    font-size: 12px;
+    padding: 0 10px;
+    line-height: 25px;
+    border-bottom: 1px solid #fff;
+}
+
+.service .final-row.no-border{
+    border: 0;
+}
+
+.service .left-row{
+    padding-right: 10px;
+}
+
+.service .right-row{
+    padding-left: 10px;
+}
+
+.service .final-row .col-xs-3{
+    text-align: right;
+}
+
+.service a{
+    color: #00d5d1;
+}
+
+.service a:hover{
+    color: #bbcdff;
+}
+
 
 
 
