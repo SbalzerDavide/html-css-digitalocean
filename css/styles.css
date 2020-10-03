@@ -442,6 +442,23 @@ section .top-deploy p{
     margin-bottom: 15px;
 }
 
+/* get strated */
+.get-started{
+    background-image: linear-gradient(#0f53c9, #001e99);
+}
+
+.get-started h2{
+    margin-bottom: 10px;
+}
+
+
+/* FOOTER */
+footer{
+    background: #031c4e;
+
+}
+
+
 
 
 /* media query */
