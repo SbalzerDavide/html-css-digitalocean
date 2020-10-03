@@ -388,10 +388,6 @@ section .top-deploy p{
     border: 0;
 }
 
-.service .left-row{
-    padding-right: 10px;
-}
-
 .service .final-row .col-xs-3{
     text-align: right;
 }
@@ -451,7 +447,21 @@ section .top-deploy p{
 /* FOOTER */
 footer{
     background: #031c4e;
+}
 
+footer img{
+    margin-bottom: 10px;
+}
+
+footer p{
+    margin-bottom: 0;
+}
+footer a{
+    color: #7a859d;
+}
+
+footer li{
+    margin-top: 10px;
 }
 
 
@@ -542,6 +552,11 @@ footer{
     .service .right-row{
         padding-left: 10px;
     }
+
+    .service .left-row{
+        padding-right: 10px;
+    }
+    
     
     
     
