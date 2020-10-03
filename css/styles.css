@@ -392,10 +392,6 @@ section .top-deploy p{
     padding-right: 10px;
 }
 
-.service .right-row{
-    padding-left: 10px;
-}
-
 .service .final-row .col-xs-3{
     text-align: right;
 }
@@ -540,6 +536,11 @@ footer{
     /* features */
     .features img{
         margin-top: 0px;
+    }
+    
+    /* service */
+    .service .right-row{
+        padding-left: 10px;
     }
     
     
