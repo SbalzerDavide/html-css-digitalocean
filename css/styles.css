@@ -69,6 +69,11 @@ h3{
 a{
     color: #006aff;
     text-decoration: none;
+    transition: color .6s;
+}
+
+a:hover{
+    text-decoration: none;
 }
 
 li{
@@ -460,10 +465,77 @@ footer a{
     color: #7a859d;
 }
 
-footer li{
-    margin-top: 10px;
+footer ul{
+    padding-left: 0;
 }
 
+footer .social a{
+    font-size: 20px;
+}
+
+footer .social .facebook:hover{
+    color: #1873eb;
+}
+
+footer .social .twitter:hover{
+    color: #1c9cea;
+}
+
+footer .social .youtube:hover{
+    color: #f70000;
+}
+
+footer .social .linkedin:hover{
+    color: #0077b0;
+}
+
+footer .social .instagram:hover{
+    color: #d60041;
+}
+
+footer a{
+    font-size: 12px;
+}
+
+footer a:hover{
+    color: #006aff;
+}
+
+footer li{
+    margin-top: 8px;
+    line-height: 18px;
+}
+
+footer h4{
+    color: #fff;
+}
+
+footer [class*="col-"]{
+   margin-bottom: 15px;
+}
+ /* help */
+ footer .help{
+     padding: 30px;
+ }
+ footer .help .left{
+     background: #fff;
+     padding: 10px;
+     margin-right: 20px;
+     width: 300px;
+     border-radius: 5px;
+     display: inline-block;
+ }
+
+ footer .help .right{
+     display: inline-block;
+     background: #006aff;
+     border-radius: 5px;
+ }
+
+ footer .help img{
+     height: 50px;
+     vertical-align: middle;
+ }
 
 
 
