@@ -3,8 +3,6 @@ body{
     padding-top: 50px;
 }
 
-
-
 /* UTILITY */
 /* button */
 .btn{
@@ -17,27 +15,33 @@ body{
     color: #006aff;
     border: 1px solid #006aff;
     transition: color .4s,
-                backgrond-color .4s;
-}
-
-.btn.btn-form-blue{
-    color: #fff;
-    background-color: #579aff;
-    display: inline-block;
-    width: 100%;
-}
-
-.btn.btn-form-white{
-    color: #797979;
-    background-color: white;
-    display: inline-block;
-    width: 100%;
-    box-shadow: 1px 1px 1px 0px rgb(212, 212, 212);
+                background-color .4s;
 }
 
 .btn.btn-primary:hover{
     color: white;
     background-color: #006aff;
+}
+
+[class*="btn-form-"]{
+    display: inline-block;
+    width: 100%;
+}
+
+.btn.btn-form-blue{
+    color: #fff;
+    background-color: #579aff;
+    transition: background-color .4s;
+}
+
+.btn.btn-form-blue:hover{
+    background-color: #006aff;
+}
+
+.btn.btn-form-white{
+    color: #797979;
+    background-color: white;
+    box-shadow: 1px 1px 1px 0px rgb(212, 212, 212);
 }
 
 /* typorgraphy */
@@ -53,13 +57,13 @@ h2,
 h3,
 h4{
     color: #031c4e;
-
 }
 
 h1{
     font-size: 40px;
     font-weight: 700;
     margin: 10px 0;
+    color: #fff;
 }
 
 h3{
@@ -69,7 +73,7 @@ h3{
 a{
     color: #006aff;
     text-decoration: none;
-    transition: color .6s;
+    transition: color .4s;
 }
 
 a:hover{
@@ -80,6 +84,7 @@ li{
     list-style: none;
 }
 
+/* color */
 .text-white{
     color: #fff;
 }
@@ -105,6 +110,10 @@ li{
     padding-left: 0;
 }
 
+ul{
+    padding-left: 0;
+}
+
 /* part */
 .top-section{
     text-align: center;
@@ -115,9 +124,6 @@ li{
     margin-top: 10px;
     margin-bottom: 50px;
 }
-
-
-
 
 /* heander */
 header nav .container{
@@ -142,15 +148,12 @@ header .navbar-header button{
 }
 
 .navbar-nav > li > a:not(.btn){
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
+    padding: 0 15px 0 0;
     line-height: 50px;
 }
 
 header .navbar-header .navbar-brand{
-    padding-top: 11px ;
-    padding-bottom: 11px;
+    padding: 11px 15px;
 }
 
 header .navbar-header .navbar-brand img{
@@ -176,6 +179,7 @@ header .navbar-central{
 section{
     padding: 40px 0;
 }
+
 /* jumbotron */
 .main-jumbotron{
     background-image: url(../img/bg-banner-home.jpg);
@@ -187,9 +191,7 @@ section{
 }
 
 .main-jumbotron .left-jumbotron{
-    color: #fff;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 0 10px;
 }
 
 .main-jumbotron .right-jumbotron{
@@ -231,7 +233,6 @@ section{
 .main-jumbotron .right-jumbotron p{
     font-size: 12px;
     color: #031c4e;
-
 }
 
 .main-jumbotron .right-jumbotron p a{
@@ -246,10 +247,6 @@ section{
 .icon h5{
     text-transform: uppercase;
     font-size: 14px;
-}
-
-.icon ul{
-    padding: 0;
 }
 
 .icon ul li{
@@ -293,15 +290,10 @@ section .top-deploy p{
     line-height: 20px;
 }
 
-.row-deploy ul{
-    padding: 0;
-}
-
 /* developers */
 .developers{
     background-color: #f3f5f9;
 }
-
 
 /* image part with arrow */
     .developers .arrow,
@@ -324,7 +316,6 @@ section .top-deploy p{
         left: -50px;
         transform:translateY(-50%);    
         font-size: 40px;
-        color: #5c6a88;
     }
 
     .developers .arrow .right-arrow,
@@ -335,7 +326,6 @@ section .top-deploy p{
         right: -50px;
         transform:translateY(-50%);    
         font-size: 40px;
-        color: #031c4e;
     }
 
     .developers-bottom ul{
@@ -353,7 +343,6 @@ section .top-deploy p{
     margin-top: 20px;
     margin-bottom: 0;
 }
-
 
 /* features */
 .features h2{
@@ -455,6 +444,7 @@ section .top-deploy p{
 /* FOOTER */
 footer{
     background: #031c4e;
+    padding-bottom: 70px;
 }
 
 footer img{
@@ -464,12 +454,9 @@ footer img{
 footer p{
     margin-bottom: 0;
 }
+
 footer a{
     color: #7a859d;
-}
-
-footer ul{
-    padding-left: 0;
 }
 
 footer .social a{
@@ -586,8 +573,8 @@ footer a:hover{
 }
 
 
-/* media query */
-
+/* MEDIA QUERY */
+/* intervallo per navbar */
 @media screen and (min-width: 768px) and (max-width: 991px) {
     /* Mostra hamburger */
     .navbar-toggle {
@@ -601,15 +588,10 @@ footer a:hover{
     }
 }
 
-
-
+/* from tablet's width */
 @media screen and (min-width:768px){
-    
-    
-    
     /* jumbotron */
     .main-jumbotron .left-jumbotron{
-        color: #fff;
         padding-right: 30px;
     }
     
@@ -653,13 +635,10 @@ footer a:hover{
 
     /* developers */
     .developers .arrow .left-arrow,
-    .developers-2 .arrow .left-arrow{
-        display: block;
-    }
-    
+    .developers-2 .arrow .left-arrow,
     .developers .arrow .right-arrow,
     .developers-2 .arrow .right-arrow{
-        display: block;        
+        display: block;
     }
 
     /* features */
@@ -680,22 +659,12 @@ footer a:hover{
         margin-bottom: 0px;    
     }
 }   
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+/* from dekstop's width */
 @media screen and (min-width:992px){
     h1{
         font-size: 50px;
     }
-
-
 
     /* deploy */
     .row-deploy .deploy-box{
@@ -707,4 +676,3 @@ footer a:hover{
         left: calc(100% - 450px);
     }
 }
-
