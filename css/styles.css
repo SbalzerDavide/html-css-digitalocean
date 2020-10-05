@@ -381,6 +381,9 @@ section .top-deploy p{
     padding: 0 10px;
 }
 
+.service .main-row{
+    margin-bottom: 15px;    
+}
 
 .service .final-row{
     font-size: 12px;
@@ -672,6 +675,11 @@ footer a:hover{
     .service .left-row{
         padding-right: 10px;
     }
+
+    .service .main-row{
+        margin-bottom: 0px;    
+    }
+}   
     
     
     
